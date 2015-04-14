@@ -61,7 +61,8 @@ text-align: right;
    
    button.btn.btn-primary.btn-lg.hidden-xs{ 
    	background-color: #ff4016; 
-   	border-color: #ff4016; 
+   	border-color: #ff4016;  
+    border-radius: -1%;
    }
 
 @media screen and (max-width :480px){
@@ -187,14 +188,53 @@ background-size: cover;
 }
 .white{
   background-color: white;
-  height: 990px;
-  width: 990px;
+  
 }
 #oportunidades{
   .container{
     padding: 85px;
+  } 
+  ul{ 
+    padding-left: 137px; 
+  }  
+  button.btn.btn-danger{ 
+    position: absolute; 
+    top: 182; 
+    right: 146px;  
+    border-color: #FF6A49;  
+    background-color: white; 
+    border:2px solid #FF6A49; 
+    border-radius: -1px; 
+    width: 26%; 
+    height: 34px; 
+    color: #FF6A49;
+
+  } 
+  li{ 
+    line-height: 2.5;  
+    font-size: 17px;
+  } 
+  h1 {  
+    padding:68px 0px 17px;
+  }  
+  .todos{ 
+    text-align: center;  
+    padding: 38px
   }
-}
+  button.btn.btn-custom{  
+    background-color: gray; 
+    color: white;
+  }  
+  .icono.hidden-xs.text-center{ 
+    position: relative; 
+    bottom: -122px; 
+  }  
+  img{ 
+    border-radius: 50%; 
+  }
+} 
+ 
+/*aqui termina*/
 
 @media screen and (max-width :480px){
   .fondo h3{
@@ -217,4 +257,5 @@ background-size: cover;
   .clases{
     padding: 0;
   }
-}
+} 
+

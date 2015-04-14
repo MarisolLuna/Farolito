@@ -5979,6 +5979,12 @@ button.close {
 .amarillo {
   color: #fcf07e; }
 
+.celeste {
+  color: #58C6E7; }
+
+.pading {
+  padding-bottom: 32px; }
+
 header {
   background-image: url(../img/img-home.png);
   height: 100%;
@@ -6038,7 +6044,8 @@ button.btn.btn-default-perfil {
 
 button.btn.btn-primary.btn-lg.hidden-xs, .btn-group-lg > button.btn.btn-primary.hidden-xs {
   background-color: #ff4016;
-  border-color: #ff4016; }
+  border-color: #ff4016;
+  border-radius: -1%; }
 
 @media screen and (max-width: 480px) {
   .fondo h3 {
@@ -6139,13 +6146,41 @@ button.btn.btn-danger {
   background-size: cover; }
 
 .white {
-  background-color: white;
-  height: 990px;
-  width: 990px; }
+  background-color: white; }
 
 #oportunidades .container {
   padding: 85px; }
+#oportunidades ul {
+  padding-left: 137px; }
+#oportunidades button.btn.btn-danger {
+  position: absolute;
+  top: 182;
+  right: 146px;
+  border-color: #FF6A49;
+  background-color: white;
+  border: 2px solid #FF6A49;
+  border-radius: -1px;
+  width: 26%;
+  height: 34px;
+  color: #FF6A49; }
+#oportunidades li {
+  line-height: 2.5;
+  font-size: 17px; }
+#oportunidades h1 {
+  padding: 68px 0px 17px; }
+#oportunidades .todos {
+  text-align: center;
+  padding: 38px; }
+#oportunidades button.btn.btn-custom {
+  background-color: gray;
+  color: white; }
+#oportunidades .icono.hidden-xs.text-center {
+  position: relative;
+  bottom: -122px; }
+#oportunidades img {
+  border-radius: 50%; }
 
+/*aqui termina*/
 @media screen and (max-width: 480px) {
   .fondo h3 {
     padding: 23px 0; }
@@ -6618,5 +6653,11 @@ button.btn.btn-danger {
 
 .amarillo {
   color: #fcf07e; }
+
+.celeste {
+  color: #58C6E7; }
+
+.pading {
+  padding-bottom: 32px; }
 
 /*# sourceMappingURL=main.css.map */
