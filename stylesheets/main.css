@@ -5971,7 +5971,7 @@ button.close {
   color: #9E9D9D; }
 
 .blanco {
-  color: white; }
+  color: #fff; }
 
 .anaranjado {
   color: #FF6A49; }
@@ -6019,7 +6019,7 @@ button.btn.btn-default {
 button.btn.btn-default-perfil {
   background-color: orange;
   width: 26%;
-  color: white;
+  color: #fff;
   font-size: 10px;
   font-size: 17px; }
 
@@ -6114,7 +6114,7 @@ h3.text-center.mb-35.mt-0 {
     margin-top: 58px; }
 
 button.btn.btn-danger {
-  color: white;
+  color: #fff;
   background-color: #FF6A49;
   width: 20%;
   height: 50px;
@@ -6126,7 +6126,7 @@ button.btn.btn-danger {
   padding-top: 73px;
   padding-bottom: 80px; }
   #educacion hr {
-    border: 1px dashed white; }
+    border: 1px dashed #fff; }
   #educacion .icono {
     bottom: -119px;
     position: relative; }
@@ -6134,7 +6134,7 @@ button.btn.btn-danger {
     border-radius: 50%; }
   #educacion button.btn.btn-danger {
     background-color: #78ff76;
-    border-color: white;
+    border-color: #fff;
     border: solid; }
 
 /*sexta parte*/
@@ -6146,7 +6146,7 @@ button.btn.btn-danger {
   background-size: cover; }
 
 .white {
-  background-color: white; }
+  background-color: #fff; }
 
 #oportunidades .container {
   padding: 85px; }
@@ -6157,7 +6157,7 @@ button.btn.btn-danger {
   top: 182;
   right: 146px;
   border-color: #FF6A49;
-  background-color: white;
+  background-color: #fff;
   border: 2px solid #FF6A49;
   border-radius: -1px;
   width: 26%;
@@ -6173,7 +6173,7 @@ button.btn.btn-danger {
   padding: 38px; }
 #oportunidades button.btn.btn-custom {
   background-color: gray;
-  color: white; }
+  color: #fff; }
 #oportunidades .icono.hidden-xs.text-center {
   position: relative;
   bottom: -122px; }
@@ -6181,6 +6181,48 @@ button.btn.btn-danger {
   border-radius: 50%; }
 
 /*aqui termina*/
+/*section parte el blog*/
+#blog h1.gray {
+  padding: 92px 0px 102px; }
+#blog img {
+  border-radius: 50%;
+  position: relative;
+  bottom: 42px; }
+#blog .parrafo {
+  text-align: left;
+  position: relative;
+  padding: 43px;
+  bottom: 24px;
+  line-height: 1.7; }
+#blog .col-md-4 {
+  margin-bottom: 61px; }
+#blog button.btn.btn-custom {
+  width: 23%;
+  height: 50px;
+  border-radius: 24px;
+  background-color: #2bb7e1;
+  color: #fff;
+  margin: 20px; }
+#blog .icono.hidden-xs.text-center {
+  position: relative;
+  bottom: -78px; }
+#blog img {
+  border-radius: 50%; }
+
+.caja {
+  background-color: #9E9D9D; }
+
+.caja:hover {
+  background-color: #FF6A49; }
+  .caja:hover .parrafo {
+    color: #fff; }
+
+/*aqui termina blog*/
+/*comienza seccion contacto*/
+#contacto {
+  background-color: gray; }
+
+/*aqui termina contacto*/
 @media screen and (max-width: 480px) {
   .fondo h3 {
     padding: 23px 0; }
@@ -6646,7 +6688,7 @@ button.btn.btn-danger {
   color: #9E9D9D; }
 
 .blanco {
-  color: white; }
+  color: #fff; }
 
 .anaranjado {
   color: #FF6A49; }
