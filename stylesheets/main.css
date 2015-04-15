@@ -6116,8 +6116,7 @@ h3.text-center.mb-35.mt-0 {
 button.btn.btn-danger {
   color: #fff;
   background-color: #FF6A49;
-  width: 20%;
-  height: 50px;
+  padding: 15px 41px;
   border-radius: 30px; }
 
 /*quinta parte */
@@ -6160,8 +6159,7 @@ button.btn.btn-danger {
   background-color: #fff;
   border: 2px solid #FF6A49;
   border-radius: -1px;
-  width: 26%;
-  height: 34px;
+  padding: 9px 41px;
   color: #FF6A49; }
 #oportunidades li {
   line-height: 2.5;
@@ -6197,8 +6195,7 @@ button.btn.btn-danger {
 #blog .col-md-4 {
   margin-bottom: 61px; }
 #blog button.btn.btn-custom {
-  width: 23%;
-  height: 50px;
+  padding: 15px 41px;
   border-radius: 24px;
   background-color: #2bb7e1;
   color: #fff;
@@ -6220,7 +6217,42 @@ button.btn.btn-danger {
 /*aqui termina blog*/
 /*comienza seccion contacto*/
 #contacto {
-  background-color: gray; }
+  background-color: whitesmoke; }
+  #contacto h1.gray {
+    padding: 93px 0px 50px 0px; }
+  #contacto button.btn.btn-default-ct {
+    float: right;
+    width: 37%;
+    background-color: gray;
+    color: #fff; }
+  #contacto .info {
+    padding-top: 24px;
+    float: left;
+    letter-spacing: 3;
+    padding-bottom: 40px; }
+
+input#pwd {
+  height: 14%; }
+
+#footer ul {
+  list-style: none; }
+
+#footer li {
+  float: left;
+  bottom: 20px;
+  position: relative; }
+
+.twiter {
+  padding: 0px 5px 0px 5px; }
+
+#footer {
+  background-color: #989898; }
+  #footer img {
+    border-radius: 50%; }
+  #footer p {
+    float: right;
+    padding-right: 23px;
+    color: #fff; }
 
 /*aqui termina contacto*/
 @media screen and (max-width: 480px) {
