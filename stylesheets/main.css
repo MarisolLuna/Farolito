@@ -6121,22 +6121,28 @@ h3.text-center.mb-35.mt-0 {
 hr.linea1.hidden-xs {
   transform: rotate(428deg);
   float: right;
-  height: 291px; }
+  height: 230px;
+  top: 53px;
+  position: relative; }
 
 .evaluacion {
-  padding-top: 209px; }
+  padding-top: 233px; }
 
 hr.linea3 {
   transform: rotate(470deg);
   float: left;
-  height: 291px; }
+  height: 230px;
+  position: relative;
+  top: 53px; }
 
 .preferencia {
-  padding-top: 209px; }
+  padding-top: 225px;
+  position: relative;
+  right: 40px; }
 
 hr.linea2 {
   transform: rotate(449deg);
-  width: 240px; }
+  width: 201px; }
 
 .analisis {
   padding-top: 87px; }
@@ -6180,7 +6186,9 @@ hr.linea2 {
   hr.linea1.hidden-xs {
     transform: rotate(0);
     float: none;
-    height: 0px; }
+    height: 0px;
+    position: none;
+    top: 0; }
 
   .evaluacion {
     padding-top: 0px; }
@@ -6188,10 +6196,14 @@ hr.linea2 {
   hr.linea3 {
     transform: rotate(0);
     float: none;
-    height: 0px; }
+    height: 0px;
+    position: none;
+    top: 0px; }
 
   .preferencia {
-    padding-top: 0px; }
+    padding-top: 0px;
+    position: none;
+    right: 0px; }
 
   hr.linea2 {
     transform: rotate(0);
@@ -6199,6 +6211,32 @@ hr.linea2 {
 
   .analisis {
     padding-top: 0px; } }
+/*seccion postulacion */
+#postulacion {
+  background-image: url(../img/img-02.png); }
+  #postulacion .icono {
+    float: right;
+    position: relative;
+    top: 0;
+    width: 25%;
+    left: 57px;
+    z-index: 10;
+    border-radius: 50%; }
+  #postulacion .numero {
+    float: left;
+    width: 20%; }
+  #postulacion .nro {
+    vertical-align: middle; }
+  #postulacion hr {
+    border-top: 2px solid #eeeeee; }
+  #postulacion .col-md-4.linealg {
+    border-left: 2px dashed white; }
+  #postulacion .texto {
+    padding-left: 61px;
+    padding-bottom: 104px;
+    padding-top: 17px; }
+
+/*aqui termina seccion postulacion*/
 /*seccion empresa*/
 #empresas {
   padding-top: 73px;
@@ -6320,7 +6358,7 @@ button.btn.btn-danger {
   border-radius: 50%; }
 
 .caja {
-  background-color: #9E9D9D; }
+  background-color: #eeeeee; }
 
 .caja:hover {
   background-color: #FF6A49; }
@@ -6385,7 +6423,10 @@ input#pwd {
     padding: 0; }
 
   .acontinuo {
-    padding: 0; } }
+    padding: 0; }
+
+  .concepto2 {
+    padding-bottom: 0px; } }
 /*@media screen and (max-width :480px){
   #home{
     background: none;
@@ -6396,6 +6437,99 @@ input#pwd {
     padding: 0;
   }
 } */
+/*nosotros*/
+#nosotros {
+  background: url(../iconos/img_nosotros-02.png) no-repeat center center scroll;
+  background-size: cover;
+  height: 63%;
+  position: relative;
+  width: 100%;
+  background-color: rgba(44, 62, 80, 0.6); }
+  #nosotros .icono.hidden-xs.text-center {
+    position: relative;
+    bottom: -218px; }
+  #nosotros .container.text-center {
+    padding: 57px; }
+  #nosotros img {
+    border-radius: 50%; }
+
+.row {
+  padding-top: 48px;
+  padding-bottom: 28px; }
+
+.frase2 {
+  color: #fff;
+  line-height: 1.7; }
+
+.foto {
+  border-radius: 50%;
+  border: 1px solid;
+  display: inline-block;
+  padding: 4px; }
+
+.foto img {
+  border-radius: 50%; }
+
+h1.gray {
+  padding: 86px 0px 25px; }
+
+.parrafo {
+  padding: 17px 44px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: #9E9D9D;
+  font-size: 15px; }
+
+h4 {
+  color: grey; }
+
+hr.separador {
+  width: 80%;
+  border: 2px dashed #9E9D9D; }
+
+.parrafo2 {
+  padding: 15px 61px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: #9E9D9D;
+  font-size: 15px; }
+
+h1.asesores.gray {
+  padding: 37px 0px 20px; }
+
+/*termina seccion asesores*/
+/*seccion comite*/
+h1.comite {
+  text-align: center;
+  padding: 58px 0px 20px;
+  color: #9E9D9D; }
+
+#comite .icono.hidden-xs.text-center {
+  position: relative;
+  bottom: -37px; }
+#comite img {
+  border-radius: 50%; }
+
+/*termina seccion comite*/
+/*comienza seccion lema*/
+#lema {
+  background-color: #FF6A49; }
+  #lema img {
+    margin-top: 62px;
+    margin-bottom: 17px;
+    border-radius: 50%; }
+  #lema hr {
+    border: 2px dashed #fff; }
+  #lema h3 {
+    color: #fff;
+    padding: 20px; }
+  #lema .concepto2 {
+    line-height: 1.7;
+    letter-spacing: 1.7;
+    padding-top: 20px;
+    padding-bottom: 140px;
+    color: #fff; }
+
 .p-0 {
   padding: rem(0) !important;
   padding: 0px !important; }

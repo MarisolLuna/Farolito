@@ -149,22 +149,28 @@ color: #fff;
 hr.linea1.hidden-xs{ 
 transform:rotate(428deg); 
 float: right; 
-height: 291px; 
+height: 230px;  
+top: 53px; 
+position: relative;
 }
 .evaluacion{ 
-padding-top: 209px; 
+padding-top: 233px; 
 } 
 hr.linea3{ 
 transform:rotate(470deg); 
 float: left; 
-height: 291px; 
+height: 230px;  
+position: relative; 
+top: 53px;
 } 
 .preferencia{ 
-padding-top: 209px; 
+padding-top: 225px;  
+position: relative; 
+right: 40px;
 }  
 hr.linea2{ 
 transform:rotate(449deg); 
-width: 240px; 
+width: 201px; 
 }
 .analisis{ 
 padding-top: 87px; 
@@ -211,7 +217,9 @@ color: none;
 hr.linea1.hidden-xs{ 
 transform:rotate(0); 
 float: none; 
-height: 0px; 
+height: 0px;   
+position: none; 
+top: 0;
 }
 .evaluacion{ 
 padding-top: 0px; 
@@ -219,10 +227,14 @@ padding-top: 0px;
 hr.linea3{ 
 transform:rotate(0); 
 float: none; 
-height: 0px; 
+height: 0px;  
+position: none; 
+top: 0px;
 } 
 .preferencia{ 
-padding-top: 0px; 
+padding-top: 0px;  
+position: none; 
+right: 0px;
 }  
 hr.linea2{ 
 transform:rotate(0); 
@@ -232,6 +244,43 @@ width: 94%;
 padding-top: 0px; 
 } 
  }  
+
+/*seccion postulacion */  
+#postulacion{ 
+  background-image: url(../img/img-02.png); 
+  .icono{ 
+    float: right; 
+   position: relative; 
+   top: 0; 
+   width: 25%; 
+   left: 57px;  
+   z-index: 10 ;
+   border-radius:50%;
+ } 
+ .numero{ 
+  float: left; 
+  width:20%; 
+   } 
+   .nro{ 
+    vertical-align: middle;  
+    } 
+    hr{  
+      border-top:2px solid #eeeeee;
+    } 
+    .col-md-4.linealg{  
+      border-left:2px dashed white;
+    } 
+    .texto{ 
+     padding-left:61px ; 
+      padding-bottom:104px ; 
+      padding-top: 17px;
+    }
+}
+ 
+
+
+
+/*aqui termina seccion postulacion*/ 
 
 /*seccion empresa*/ 
 #empresas{
@@ -394,7 +443,7 @@ h1.gray{
   
 
 .caja{ 
-  background-color: #9E9D9D; 
+  background-color: #eeeeee; 
  }
 .caja:hover{ 
 background-color: #FF6A49; 
@@ -479,6 +528,9 @@ color: #fff;
   } 
   .acontinuo{ 
     padding: 0; 
+  } 
+  .concepto2{ 
+    padding-bottom:0px; 
   }
 }
 
@@ -493,3 +545,108 @@ color: #fff;
   }
 } */
 
+/*nosotros*/ 
+#nosotros{ 
+background: url(../iconos/img_nosotros-02.png) no-repeat center center  scroll;  
+background-size: cover;  
+height: 63%; 
+position: relative;  
+width:100%;  
+background-color: rgba(44,62,80,0.6); 
+.icono.hidden-xs.text-center{ 
+    position: relative; 
+    bottom: -218px;  
+  }   
+  .container.text-center{ 
+    padding: 57px; 
+  }    
+  img{ 
+    border-radius: 50%; 
+  }
+}  
+  .row{ 
+  padding-top: 48px;  
+  padding-bottom: 28px;
+  }
+.frase2{ 
+color: #fff;  
+line-height: 1.7;
+}
+.foto{ 
+    border-radius: 50%; 
+    border: 1px solid; 
+    display: inline-block; 
+    padding: 4px; 
+  }  
+  
+  .foto img{ 
+    border-radius: 50%; 
+  } 
+  h1.gray{ 
+    padding: 86px 0px 25px; 
+  } 
+  .parrafo{ 
+  padding: 17px 44px;  
+  font-weight: 700; 
+  line-height: 1.7; 
+  color: #9E9D9D; 
+  font-size: 15px;
+  }
+ h4{ 
+  color: grey; 
+} 
+hr.separador{ 
+width: 80%; 
+border: 2px dashed #9E9D9D; 
+} 
+.parrafo2{ 
+  padding: 15px 61px;  
+  font-weight: 700; 
+  line-height: 1.7; 
+  color: #9E9D9D; 
+  font-size: 15px;
+  } 
+  h1.asesores.gray{ 
+    padding: 37px 0px 20px; 
+  } 
+/*termina seccion asesores*/
+/*seccion comite*/ 
+h1.comite{ 
+text-align: center; 
+padding:58px 0px 20px; 
+color: #9E9D9D;  
+} 
+#comite{ 
+.icono.hidden-xs.text-center{ 
+  position: relative; 
+  bottom:-37px;   
+  }  
+  img{ 
+    border-radius: 50%; 
+  }
+} 
+/*termina seccion comite*/ 
+ 
+ /*comienza seccion lema*/ 
+ #lema{ 
+  background-color: #FF6A49;  
+  img{ 
+    margin-top:62px ;  
+    margin-bottom: 17px; 
+    border-radius: 50%;
+  } 
+  hr{ 
+    border: 2px dashed #fff; 
+  } 
+  h3{ 
+    color: #fff; 
+    padding: 20px; 
+  }  
+  .concepto2{  
+  line-height: 1.7; 
+  letter-spacing: 1.7;  
+  padding-top: 20px; 
+  padding-bottom: 140px;   
+  color: #fff;
+}
+} 
