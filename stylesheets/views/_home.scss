@@ -113,18 +113,131 @@ bottom: -200px;
  } 
  h3.text-center.mb-35.mt-0{ 
   color:#9E9D9D 
-  ;}
- /*acaba aqui*/  
+  ;}  
+#metodologia{  
+  .icono.hidden-xs.text-center{ 
+    position: relative; 
+    bottom: -38px; 
+  } 
+  img{ 
+    border-radius: 50%; 
+  }
+}
+  /*metodoligia circulo*/ 
+  .circulo { 
+    margin: 0 auto; 
+    width: 374px; 
+    height: 374px; 
+    border-radius: 50%; 
+    background-color: #FF6A49;  
+    padding: 4px;
+  } 
+  .acontinuo{ 
+    padding: 0px 100px; 
+  }
+.circulo2{ 
+border-radius: 50%; 
+border: 2px dashed #fff;  
+height: 364px; 
+width: 364px;
+} 
+.circulo2 h4{  
+padding: 74px 10px;  
+line-height: 1.5; 
+color: #fff;
+}
+hr.linea1.hidden-xs{ 
+transform:rotate(428deg); 
+float: right; 
+height: 291px; 
+}
+.evaluacion{ 
+padding-top: 209px; 
+} 
+hr.linea3{ 
+transform:rotate(470deg); 
+float: left; 
+height: 291px; 
+} 
+.preferencia{ 
+padding-top: 209px; 
+}  
+hr.linea2{ 
+transform:rotate(449deg); 
+width: 240px; 
+}
+.analisis{ 
+padding-top: 87px; 
+} 
+ 
+#metodologia button.btn.btn-custom{ 
+border-radius: 30px; 
+padding: 15px 64px; 
+background-color:#2bb7e1;  
+color: #fff; 
+margin-top: 69px; 
+border-color: #1da3cb; 
+margin-bottom: 30px;
+}
+ /*acaba aqui metodologia*/   
+
+
  @media screen and (max-width :480px){
   .navbar-default{ 
   	background-color: aliceblue; 
-  }  
+  }   
+   .circulo { 
+    margin: 0 auto; 
+    width: 0px; 
+    height: 0px; 
+    border-radius: 0px; 
+    background-color: none;  
+    padding: 0px;
+  } 
+  .acontinuo{ 
+    padding: 0px 0px; 
+  }
+.circulo2{ 
+border-radius: 0px; 
+border: none;  
+height: 0px; 
+width: 0px;
+} 
+.circulo2 h4{  
+padding: 0px;  
+line-height: 0; 
+color: none;
+}
+hr.linea1.hidden-xs{ 
+transform:rotate(0); 
+float: none; 
+height: 0px; 
+}
+.evaluacion{ 
+padding-top: 0px; 
+} 
+hr.linea3{ 
+transform:rotate(0); 
+float: none; 
+height: 0px; 
+} 
+.preferencia{ 
+padding-top: 0px; 
+}  
+hr.linea2{ 
+transform:rotate(0); 
+width: 94%; 
+}
+.analisis{ 
+padding-top: 0px; 
+} 
  }  
 
 /*seccion empresa*/ 
 #empresas{
   padding-top: 73px;
-  padding-bottom: 80px;
+  padding-bottom: 80px;  
+  background-color: beige;
   hr{
     border: 1px dashed red;
   }
@@ -144,14 +257,23 @@ bottom: -200px;
   }
   .btn-danger {
   margin-top: 58px;  
+}       
+}     
+h2.blanco{ 
+padding-top: 24px; 
 } 
-} 
+.row.titulo{ 
+padding: 31px 0px 30px 
+}
+
+  
 button.btn.btn-danger{
   color: #fff; 
   background-color: #FF6A49;  
   padding: 15px 41px;
   border-radius: 30px;
-}
+} 
+
 
 /*quinta parte */
 #educacion{
@@ -348,10 +470,19 @@ color: #fff;
   }
   .fondo{
   padding-top: 85px;
+  } 
+  #home{
+    background: none;
+  } 
+  .clases{
+    padding: 0;
+  } 
+  .acontinuo{ 
+    padding: 0; 
   }
 }
 
-@media screen and (max-width :480px){
+/*@media screen and (max-width :480px){
   #home{
     background: none;
   }
@@ -360,5 +491,5 @@ color: #fff;
   .clases{
     padding: 0;
   }
-} 
+} */
 
