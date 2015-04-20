@@ -6539,6 +6539,47 @@ h1.comite {
     color: #fff; }
 
 /*blog 2 pagina principal*/
+#blog2 .usuario {
+  padding-top: 10px; }
+#blog2 .farolito h4 {
+  line-height: 1.7; }
+#blog2 .boy {
+  padding: 39px 0px; }
+#blog2 ul {
+  list-style: none;
+  padding-right: 17px; }
+#blog2 li {
+  border-bottom: 1px solid gray;
+  width: 86%;
+  padding-bottom: 3px;
+  color: #9E9D9D; }
+#blog2 .listas {
+  width: 76%;
+  padding: 26px 0px;
+  background-color: #E0E0E0; }
+
+.articulo {
+  text-align: center;
+  background-color: #E0E0E0;
+  width: 76%;
+  height: 25%;
+  margin-top: 65px; }
+
+.parrafo-col3 {
+  padding: 0px 15px; }
+
+.parrafo-col3 h4 {
+  line-height: 1.4; }
+.parrafo-col3 h5 {
+  font-weight: 700;
+  line-height: 1.3; }
+
+.articulo img {
+  text-align: center;
+  position: relative;
+  bottom: 34px;
+  border-radius: 50%; }
+
 .p-0 {
   padding: rem(0) !important;
   padding: 0px !important; }
