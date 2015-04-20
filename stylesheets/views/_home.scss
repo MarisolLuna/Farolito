@@ -438,7 +438,15 @@ h1.gray{
   }  
   img{ 
     border-radius: 50%; 
-  }
+  } 
+  h5{ 
+    text-align: left; 
+    position:relative;  
+     
+    bottom: 24px;   
+    line-height: 1.7; 
+    font-weight: 700; 
+  } 
 }
   
 
@@ -446,13 +454,15 @@ h1.gray{
   background-color: #eeeeee; 
  }
 .caja:hover{ 
-background-color: #FF6A49; 
-.parrafo{ 
-color: #fff; 
- }  
+background-color: #fcf07e; 
+  .parrafo{ 
+  color: #fff; 
+   } 
+   h5{
+    color:#FF6A49;
+   } 
 
 } 
- 
 
 /*aqui termina blog*/  
  
@@ -649,4 +659,11 @@ color: #9E9D9D;
   padding-bottom: 140px;   
   color: #fff;
 }
-} 
+}  
+ 
+/*blog 2 pagina principal*/ 
+
+
+
+
+

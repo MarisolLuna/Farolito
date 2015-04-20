@@ -6356,14 +6356,22 @@ button.btn.btn-danger {
   bottom: -78px; }
 #blog img {
   border-radius: 50%; }
+#blog h5 {
+  text-align: left;
+  position: relative;
+  bottom: 24px;
+  line-height: 1.7;
+  font-weight: 700; }
 
 .caja {
   background-color: #eeeeee; }
 
 .caja:hover {
-  background-color: #FF6A49; }
+  background-color: #fcf07e; }
   .caja:hover .parrafo {
     color: #fff; }
+  .caja:hover h5 {
+    color: #FF6A49; }
 
 /*aqui termina blog*/
 /*comienza seccion contacto*/
@@ -6530,6 +6538,7 @@ h1.comite {
     padding-bottom: 140px;
     color: #fff; }
 
+/*blog 2 pagina principal*/
 .p-0 {
   padding: rem(0) !important;
   padding: 0px !important; }
