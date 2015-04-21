@@ -28,7 +28,9 @@ margin-top: -5;
 }  
 button.btn.btn-default{ 
 background-color: #9E9D9D;  
-border-radius: 17px;
+border-radius: 17px; 
+color: #fff; 
+margin-top: 4px;
 } 
 button.btn.btn-default-perfil{ 
 background-color: orange;  
@@ -83,8 +85,19 @@ bottom: -200px;
 @media screen and (max-width :480px){
   header{ 
   	background-image: none; 
-  } 
- } 
+  }  
+  #metodologia{ 
+    h1.text-center{  
+      padding: 0px;
+      }  
+      .row{ 
+        padding-top: 0px; 
+        padding-bottom: 57px; 
+      }
+    }
+ }  
+
+
  img.hidden-lg.hidden-md{ 
  	width: 100%; 
  } 
@@ -181,7 +194,6 @@ border-radius: 30px;
 padding: 15px 64px; 
 background-color:#2bb7e1;  
 color: #fff; 
-margin-top: 69px; 
 border-color: #1da3cb; 
 margin-bottom: 30px;
 }
@@ -251,21 +263,28 @@ padding-top: 0px;
   .icono{ 
     float: right; 
    position: relative; 
-   top: 0; 
-   width: 25%; 
-   left: 57px;  
+   top: 0px; 
+   width: 30%; 
+   left: 65px;  
    z-index: 10 ;
    border-radius:50%;
  } 
  .numero{ 
   float: left; 
-  width:20%; 
+  width:20%;  
+  position: relative; 
+  right: 32px;  
+  bottom: 25px;
+
    } 
    .nro{ 
     vertical-align: middle;  
     } 
     hr{  
-      border-top:2px solid #eeeeee;
+      border-top:2px dashed #eeeeee; 
+      position: relative; 
+      top: -54px; 
+      width: 81%;
     } 
     .col-md-4.linealg{  
       border-left:2px dashed white;
@@ -274,8 +293,92 @@ padding-top: 0px;
      padding-left:61px ; 
       padding-bottom:104px ; 
       padding-top: 17px;
+    } 
+    h1{ 
+      color: #fff; 
+      text-align: center;  
+      padding-top: 90px;
+    } 
+    h2{ 
+      color: #fff; 
+      text-align: center; 
+      font-size:27px; 
+      padding-bottom: 40px;  
+    }  
+    h3{ 
+      color: #fff; 
+    } 
+    h5{ 
+      line-height: 1.7;  
+      color: #fff; 
+      font-size: 18px;
+      text-align: left;
+    } 
+    .perfil{ 
+      top: -40px; 
     }
+} 
+.postulante{ 
+  padding-top: 0 !important ; 
+  padding-bottom: 0 !important;
 }
+ #postulacion button.btn.btn-custom{ 
+border-radius: 30px; 
+padding: 15px 64px; 
+background-color:#2bb7e1;  
+color: #fff; 
+border-color: #fff; 
+margin-bottom: 60px;
+} 
+#postulacion{  
+  .icon.hidden-xs.text-center{ 
+    position: relative; 
+    bottom: -38px; 
+  } 
+  img{ 
+    border-radius: 50%; 
+  }
+}
+ @media screen and (max-width :480px){ 
+  #postulacion{  
+    .numero{  
+      float: none; 
+      position: initial; 
+      width: 100%; 
+      padding-bottom: 15px;
+      }  
+      .icono{ 
+        float: none; 
+        position: initial; 
+      } 
+      .col-md-4.linealg{  
+        margin-top: 30px; 
+        border-left: none;
+      } 
+      hr{ 
+        top: -20px; 
+      } 
+      h3{ 
+        margin-top: 0px; 
+      } 
+      .perfil{ 
+        top: -20px; 
+      } 
+      h1{ 
+        padding-top: 67px; 
+        padding-bottom: 25px; 
+      } 
+      .texto{ 
+        padding-bottom: 46px;  
+        padding-top: 0px; 
+        padding-left: 0px;
+      } 
+      h5{ 
+        text-align: center; 
+      }
+    }
+  }
+
  
 
 
@@ -286,7 +389,7 @@ padding-top: 0px;
 #empresas{
   padding-top: 73px;
   padding-bottom: 80px;  
-  background-color: beige;
+  background-color: #fff;
   hr{
     border: 1px dashed red;
   }
@@ -708,7 +811,7 @@ padding: 0px 15px;
     font-weight: 700;  
     line-height: 1.3;
 
-  }
+  } 
 }
  
 .articulo{
@@ -716,7 +819,12 @@ img{
   text-align:center; 
   position:relative;  
   bottom:34px; 
-  border-radius:50%; 
+  border-radius:50%;  
+  } 
+} 
+.boy{ 
+img{  
+  width: 100%;
   } 
 }
 

@@ -6014,7 +6014,9 @@ header {
 
 button.btn.btn-default {
   background-color: #9E9D9D;
-  border-radius: 17px; }
+  border-radius: 17px;
+  color: #fff;
+  margin-top: 4px; }
 
 button.btn.btn-default-perfil {
   background-color: orange;
@@ -6060,7 +6062,13 @@ button.btn.btn-primary.btn-lg.hidden-xs, .btn-group-lg > button.btn.btn-primary.
 
 @media screen and (max-width: 480px) {
   header {
-    background-image: none; } }
+    background-image: none; }
+
+  #metodologia h1.text-center {
+    padding: 0px; }
+  #metodologia .row {
+    padding-top: 0px;
+    padding-bottom: 57px; } }
 img.hidden-lg.hidden-md {
   width: 100%; }
 
@@ -6152,7 +6160,6 @@ hr.linea2 {
   padding: 15px 64px;
   background-color: #2bb7e1;
   color: #fff;
-  margin-top: 69px;
   border-color: #1da3cb;
   margin-bottom: 30px; }
 
@@ -6217,31 +6224,100 @@ hr.linea2 {
   #postulacion .icono {
     float: right;
     position: relative;
-    top: 0;
-    width: 25%;
-    left: 57px;
+    top: 0px;
+    width: 30%;
+    left: 65px;
     z-index: 10;
     border-radius: 50%; }
   #postulacion .numero {
     float: left;
-    width: 20%; }
+    width: 20%;
+    position: relative;
+    right: 32px;
+    bottom: 25px; }
   #postulacion .nro {
     vertical-align: middle; }
   #postulacion hr {
-    border-top: 2px solid #eeeeee; }
+    border-top: 2px dashed #eeeeee;
+    position: relative;
+    top: -54px;
+    width: 81%; }
   #postulacion .col-md-4.linealg {
     border-left: 2px dashed white; }
   #postulacion .texto {
     padding-left: 61px;
     padding-bottom: 104px;
     padding-top: 17px; }
+  #postulacion h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 90px; }
+  #postulacion h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 27px;
+    padding-bottom: 40px; }
+  #postulacion h3 {
+    color: #fff; }
+  #postulacion h5 {
+    line-height: 1.7;
+    color: #fff;
+    font-size: 18px;
+    text-align: left; }
+  #postulacion .perfil {
+    top: -40px; }
 
+.postulante {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+#postulacion button.btn.btn-custom {
+  border-radius: 30px;
+  padding: 15px 64px;
+  background-color: #2bb7e1;
+  color: #fff;
+  border-color: #fff;
+  margin-bottom: 60px; }
+
+#postulacion .icon.hidden-xs.text-center {
+  position: relative;
+  bottom: -38px; }
+#postulacion img {
+  border-radius: 50%; }
+
+@media screen and (max-width: 480px) {
+  #postulacion .numero {
+    float: none;
+    position: initial;
+    width: 100%;
+    padding-bottom: 15px; }
+  #postulacion .icono {
+    float: none;
+    position: initial; }
+  #postulacion .col-md-4.linealg {
+    margin-top: 30px;
+    border-left: none; }
+  #postulacion hr {
+    top: -20px; }
+  #postulacion h3 {
+    margin-top: 0px; }
+  #postulacion .perfil {
+    top: -20px; }
+  #postulacion h1 {
+    padding-top: 67px;
+    padding-bottom: 25px; }
+  #postulacion .texto {
+    padding-bottom: 46px;
+    padding-top: 0px;
+    padding-left: 0px; }
+  #postulacion h5 {
+    text-align: center; } }
 /*aqui termina seccion postulacion*/
 /*seccion empresa*/
 #empresas {
   padding-top: 73px;
   padding-bottom: 80px;
-  background-color: beige; }
+  background-color: #fff; }
   #empresas hr {
     border: 1px dashed red; }
   #empresas .icono {
@@ -6579,6 +6655,9 @@ h1.comite {
   position: relative;
   bottom: 34px;
   border-radius: 50%; }
+
+.boy img {
+  width: 100%; }
 
 .p-0 {
   padding: rem(0) !important;
