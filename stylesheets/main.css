@@ -6008,6 +6008,15 @@ header {
 .navbar-default .navbar-toggle {
   border-color: transparent; }
 
+/*botom es*/
+select.opciones {
+  border-radius: 8px;
+  padding: 7px 11px;
+  background-color: #fff;
+  border-color: gray;
+  margin-top: 21px; }
+
+/*termina aqui el es*/
 /*termina aqui*/
 .botom {
   margin-top: -5; }
@@ -6016,7 +6025,8 @@ button.btn.btn-default {
   background-color: #9E9D9D;
   border-radius: 17px;
   color: #fff;
-  margin-top: 4px; }
+  margin-top: 16px;
+  margin: 17px; }
 
 button.btn.btn-default-perfil {
   background-color: orange;
@@ -6102,12 +6112,14 @@ h3.text-center.mb-35.mt-0 {
   bottom: -38px; }
 #metodologia img {
   border-radius: 50%; }
+#metodologia h4 {
+  line-height: 1.5; }
 
 /*metodoligia circulo*/
 .circulo {
   margin: 0 auto;
-  width: 374px;
-  height: 374px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   background-color: #FF6A49;
   padding: 4px; }
@@ -6118,13 +6130,14 @@ h3.text-center.mb-35.mt-0 {
 .circulo2 {
   border-radius: 50%;
   border: 2px dashed #fff;
-  height: 364px;
-  width: 364px; }
+  height: 490px;
+  width: 490px; }
 
 .circulo2 h4 {
-  padding: 74px 10px;
+  padding: 125px 10px;
   line-height: 1.5;
-  color: #fff; }
+  color: #fff;
+  font-size: 20px; }
 
 hr.linea1.hidden-xs {
   transform: rotate(428deg);
@@ -6205,7 +6218,9 @@ hr.linea2 {
     float: none;
     height: 0px;
     position: none;
-    top: 0px; }
+    top: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px; }
 
   .preferencia {
     padding-top: 0px;
@@ -6214,10 +6229,16 @@ hr.linea2 {
 
   hr.linea2 {
     transform: rotate(0);
-    width: 94%; }
+    width: 94%;
+    margin-top: 30px;
+    margin-bottom: 30px; }
 
   .analisis {
-    padding-top: 0px; } }
+    padding-top: 0px; }
+
+  h3.anaranjado {
+    margin-top: 33px;
+    margin-bottom: 33px; } }
 /*seccion postulacion */
 #postulacion {
   background-image: url(../img/img-02.png); }
@@ -6658,6 +6679,34 @@ h1.comite {
 
 .boy img {
   width: 100%; }
+
+/*el poop de ingresar*/
+.modal-dialog {
+  z-index: 2000; }
+
+h1#myModalLabel {
+  text-align: center;
+  color: #58C6E7; }
+
+.modal-body {
+  padding: 70px; }
+
+.form-control {
+  border: none; }
+
+.modal-header {
+  margin-top: 30px;
+  border-bottom: none; }
+
+button.btn.btn-primary {
+  background-color: skyblue;
+  border-color: skyblue;
+  width: 35%;
+  height: 6%;
+  border-radius: 30px; }
+
+.modal-footer {
+  border-top: none; }
 
 .p-0 {
   padding: rem(0) !important;
