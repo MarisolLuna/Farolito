@@ -6,7 +6,7 @@
 		<!-- Responsiveness -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css"> 
-		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>      
 		<!-- Navigation --> 
@@ -19,7 +19,8 @@
                     		<span class="sr-only">Toggle navigation</span>
                    		 	<span class="icon-bar"></span>
                     		<span class="icon-bar"></span>
-                    		<span class="icon-bar"></span>
+                    		<span class="icon-bar"></span> 
+                    		<button type="button" class=" btn-responsive btn btn-primary hidden-lg "style="border-radius:0px;width:38%;background-color:#FF6A49;">CREA TU PERFIL</button>
                 		</button>
             		</div>
 
@@ -27,18 +28,18 @@
             		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 		<ul class="nav navbar-nav navbar-right">
                     		<li>
-                        		<a href=""><h4> SOBRE NOSOTROS</h4></a>
+                        		<a href="nosotros.html"><h4> SOBRE NOSOTROS</h4></a>
                     		</li>
                     		<li>
-                        		<a href=""><h4>OPORTUNIDADES</h4></a>
+                        		<a href="#oportunidades"><h4>OPORTUNIDADES</h4></a>
                     		</li> 
-                    		<li>   
+                    		<li class="hidden-xs">   
                     			<select class="opciones">
 					        		<option>Es</option>
 					        		<option>In</option>
 					        	</select>
 		                    </li>
-                    		<li>
+                    		<li class="hidden-xs">
                         		<!-- <a  class="botom" href="">  -->
                         			<button class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal" type="button"><strong>INGRESAR</strong></button>
    
@@ -58,7 +59,7 @@
 							<h3>Identificamos al mejor talento y maximizamos su portencial</h3>  
 							<h4>Con una evaluación rigurosa, tanto de postulantes como de puestos laborales, identificamos la sinergia óptima entre trabajador y empresa, aumentando la productividad, la permanencia y la felicidad de los trabajadores</h4>  
 							<button type="button" class="btn btn-primary btn-lg hidden-xs">CREA TU PERFIL</button>
-							<img src="img/img-home.png" class="hidden-lg hidden-md">
+							<img src="img/img-home2.png" class="hidden-lg hidden-md" style="height:40%">
 						</div>
 						<div class="flecha-home hidden-xs text-center">
 							<a href="#metodologia">  
@@ -88,10 +89,11 @@
 						<div class="col-md-3"> 
 							<hr class="linea1 hidden-xs" style="border:2px dashed #FF6A49;">  
 								<div class="evaluacion">  
-								<h3 class="anaranjado">Evaluacion de competencias</h3>
-								<h4 class="gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation.</h4></div>
+									<h3 class="anaranjado">Evaluacion de competencias</h3>
+									<h4 class="gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation.</h4> 
+								</div>
 						</div> 
 						<div class="col-md-6"> 
 							<div class="circulo hidden-xs"> 
@@ -107,30 +109,31 @@
                                 
                                 </div>
                              </div>  
-								<hr class="linea2" style="border:2px dashed #FF6A49;">  
-								<div class="acontinuo">
-									<div class="analisis">  
+							<hr class="linea2" style="border:2px dashed #FF6A49;">  
+							<div class="acontinuo">
+								<div class="analisis">  
 									<h3 class="anaranjado">Analisis continuo</h3> 
 									<h4 class="gray">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 										quis nostrud exercitation. </h4>
-									</div>  
-								</div>
+								</div>  
+							</div>
 						</div>
 						<div class="col-md-3"> 
 						<hr class="linea3" style="border:2px dashed #FF6A49;">  
-								<div class="preferencia">  
+							<div class="preferencia">  
 								<h3 class="anaranjado">Evaluacion de preferencias</h3>
 								<h4 class="gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation.</h4></div> 
+								quis nostrud exercitation.</h4>  
+							</div>
 						</div>    
-            </div>  
-            <button type="button" class="btn btn-custom hidden-xs">VER MÁS</button> 
-            <div class="icono hidden-xs text-center">
-				<a href=""><img src="iconos/iconos-15.png"></a>
-			</div>
+            		</div>  
+            				<button type="button" class="btn btn-custom hidden-xs">VER MÁS</button> 
+            				<div class="icono hidden-xs text-center">
+								<a href="#postulacion"><img src="iconos/iconos-15.png"></a>
+							</div>
 				</div>
 			</section> 
 			<section id="postulacion">  
@@ -141,9 +144,9 @@
 						<div class="col-md-2"></div> 
 						<div class="col-md-4"> 
 							<div class="contenedor">  
-							<div class="numero"> 
-								<img class="nro"src="iconos/numeros-39.png">
-							</div> 
+								<div class="numero"> 
+										<img class="nro"src="iconos/numeros-39.png">
+								</div> 
 							 
 							<img  class="icono"src="iconos/iconos-09.png"> 
 							
@@ -154,7 +157,7 @@
 						</div> 
 						<div class="col-md-4 linealg" style="margin-top:30px;">  
 							<div class="texto"> 
-							<h5>Ingresa tus datos en nuestra pagina y froma parte de nuestra<br> comunidad</h5> 
+								<h5>Ingresa tus datos en nuestra pagina y froma parte de nuestra<br> comunidad</h5> 
 							</div>
 						</div> 
 						<div class="col-md-2"></div>
@@ -163,9 +166,9 @@
 						<div class="col-md-2"></div> 
 						<div class="col-md-4"> 
 							<div class="contenedor">  
-							<div class="numero"> 
-								<img class="nro"src="iconos/numeros-37.png">
-							</div> 
+								<div class="numero"> 
+										<img class="nro"src="iconos/numeros-37.png">
+								</div> 
 							 
 							<img  class="icono"src="iconos/iconos-10.png"> 
 							
@@ -185,11 +188,11 @@
 						<div class="col-md-2"></div> 
 						<div class="col-md-4"> 
 							<div class="contenedor">  
-							<div class="numero"> 
-								<img class="nro"src="iconos/numeros-38.png">
-							</div> 
+								<div class="numero"> 
+									<img class="nro"src="iconos/numeros-38.png">
+								</div> 
 							 
-							<img  class="icono"src="iconos/iconos-11.png"> 
+								<img  class="icono"src="iconos/iconos-11.png"> 
 							
 								  
 							<h3 style="margin-top:55px;">Mejora tu perfil<br>profesional</h3> 
@@ -206,18 +209,18 @@
                     <button type="button" class="btn btn-custom">VER OPORTUNIDADES</button>   
 				</div>
 				<div class="icon hidden-xs text-center">
-				<a href=""><img src="iconos/iconos-15.png"></a>
-			</div>
+					<a href="#empresas"><img src="iconos/iconos-15.png"></a>
+				</div>
 			</section>  
 			<section id="empresas">
 				<div class="container text-center">
 					<div class="row titulo">
 						<div class="col-md-3"></div>
 						<div class="col-md-6">
-							<h2 class="anaranjado">Farolito para empresas</h2>
-							<h3 class="gray">Contrata al mejor talento</h3>
+							<h1 class="anaranjado">Farolito para empresas</h1>
+							<h3 class="gray" style="font-weight:700;">Contrata al mejor talento</h3>
 							<hr>
-							<h4 class="gray hidden-xs">Somos proveedor estrategico para bajar la rotacion y subir la productividad de los trabajadores.</h4>
+							<h4 class="gray hidden-xs" style="line-height:1.5;">Somos proveedor estrategico para bajar la rotacion y subir la productividad de los trabajadores.</h4>
 						</div>
 						<div class="col-md-3"></div>
 					</div>
@@ -243,8 +246,8 @@
 					</div>
 					<button type="button" class="btn btn-danger">CONTACTANOS</button> 
 					<div class="icono hidden-xs text-center">
-							<a href=""><img src="iconos/iconos-15.png"></a>
-						</div>
+							<a href="#educacion"><img src="iconos/iconos-15.png"></a>
+					</div>
 				</div>
 			</section>
 			<section id="educacion">
@@ -252,10 +255,10 @@
 					<div class="row">
 						<div class="col-md-3"></div>
 						<div class="col-md-6">
-							<h2 class="blanco">Farolito para Centros Educativos</h2>
+							<h1 class="blanco">Farolito para Centros Educativos</h1>
 							<h3 class="amarillo">Desarrolla el mejor talento</h3>
 							<hr>
-							<h4 class="blanco">Somos la evaluadora que asegura que cada alumno egrese siendo el mejor profesional que requiere el mercado laboral.</h4>
+							<h4 class="blanco" style="font-size:20px;">Somos la evaluadora que asegura que cada alumno egrese siendo el mejor profesional que requiere el mercado laboral.</h4>
 						</div>
 						<div class="col-md-3"></div>
 					</div>
@@ -278,7 +281,7 @@
 					</div>
 					<button type="button" class="btn btn-danger">CONTACTANOS</button>
 					<div class="icono hidden-xs text-center">
-							<a href=""><img src="iconos/iconos-15.png"></a>
+							<a href="#oportunidades"><img src="iconos/iconos-15.png"></a>
 					</div>
 				</div>
 			</section>
@@ -335,9 +338,9 @@
 							</div>
 						
 					</div> 
-						<div class="icono hidden-xs text-center">
-							<a href=""><img src="iconos/iconos-15.png"></a>
-						</div>
+					<div class="icono hidden-xs text-center">
+						<a href="#blog"><img src="iconos/iconos-15.png"></a>
+					</div>
 				</div> 
 			</section> 
 			<section id="blog">   
@@ -368,11 +371,12 @@
 										</div>  
 								</div> 
 							</div> 
-							<button type="button" class="btn btn-custom">VER TODOS</button>
+							<a href="blog.html"> 
+							<button type="button" class="btn btn-custom">VER TODOS</button></a>
 
 						</div>  
 						<div class="icono hidden-xs text-center">
-							<a href=""><img src="iconos/iconos-15.png"></a>
+							<a href="#contacto"><img src="iconos/iconos-15.png"></a>
 						</div> 
 				</div> 
 			</section> 
@@ -382,28 +386,28 @@
 		    		<div class="row"> 
 		    			<div class="col-md-4"></div> 
 		    			<div class="col-md-4"> 
-		    			<form role="form">
-				             <div class="form-group">
-				                <input type="email" class="form-control" id="email" placeholder="Name">
-				              </div>
-				              <div class="form-group">
-				                <input type="email" class="form-control" id="email" placeholder="Email Address">
-				              </div>
-				              <div class="form-group">
-				                <div class="msj">
-				                    <input type="message" class="form-control" id="pwd" placeholder="Message">
-				                </div>
-				              </div>
-				              <div class="contac-btn">
-				                <button type="submit" class="btn btn-default-ct">ENVIAR</button>
-				              </div>    
-				        </form>  
-				        <div class="info">o   llamanos   al   +51 32660564 </div> 
+		    				<form role="form">
+					             <div class="form-group">
+					                <input type="email" class="form-control" id="email" placeholder="Name">
+					             </div>
+					             <div class="form-group">
+					                <input type="email" class="form-control" id="email" placeholder="Email Address">
+					             </div>
+					             <div class="form-group">
+					                <div class="msj">
+					                    <input type="message" class="form-control" id="pwd" placeholder="Message">
+					              	</div>
+					             </div>
+					             <div class="contac-btn">
+					                <button type="submit" class="btn btn-default-ct">ENVIAR</button>
+					             </div>    
+					        </form>  
+				        	<div class="info">o   llamanos   al   +51 32660564 </div> 
 				        </div> 	   
 				        <div class="col-md-4"></div>
-				    </div>
-
-		    </section> 
+				    </div> 
+				</div>
+			</section> 
 		    <section id="footer"> 
 		    	<div class="container-fluid">  
 		    		<ul> 
@@ -446,6 +450,7 @@
 		<!-- Javascripts de Bootstrap -->
 		<script src="javascript/b3/collapse.js"></script>
 		<script src="javascript/b3/transition.js"></script> 
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>   
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>  
+		<script src="farolito.js"></script>  
 	</body>	
 </html>
